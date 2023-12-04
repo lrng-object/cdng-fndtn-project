@@ -1,0 +1,189 @@
+/* Common styles */
+body{
+    margin:0;
+    background-color: #191a1d;
+    font-family: 'Roboto' , sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* navbar styles */
+.navigation-wrapper {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .logo-wrapper{
+    padding: 10px;
+}
+
+.navigation-wrapper > .logo-wrapper img{
+    width: 200px;
+}
+
+.navigation-wrapper > .center-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.navigation-wrapper > .center-wrapper > .links-heading{
+    padding-top: 12px;
+    text-transform: uppercase;
+    color: #e4e187;
+}
+
+.navigation-wrapper > .center-wrapper > .links-wrapper{
+    display:flex;
+    justify-content: space-around;
+}
+
+.navigation-wrapper > .center-wrapper > .links-wrapper > .nav-link a{
+    text-decoration: none;
+    margin-right: 12px;
+    font-weight: bold;
+    color:white;
+}
+
+.navigation-wrapper > .center-wrapper > .links-wrapper > .nav-link:last-child{
+    padding-left:12px;
+    border: none;
+    color: #acacac;}
+
+
+.navigation-wrapper > .right-navbar-liks-wrapper {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-navbar-liks-wrapper > .right-navbar-links{
+    background-color: #36383f;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 7px;
+    margin: 7px;
+
+}
+
+.navigation-wrapper > .right-navbar-liks-wrapper > .right-navbar-links #chevron{
+    color: #4bce79;
+}
+
+#search {
+    color: #7b7e8b;
+    background-color: transparent;
+}
+
+/* main page styles */
+.main-container {
+    padding-top: 30px;
+    color: white;
+    background-color: #212329;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset -180px 0px 500px 0px rgba(0, 0, 0, 0.9);
+    
+}
+/* Left portion of the page */
+.main-container > .left-side-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    text-align: left;
+    padding-right: 65px;
+    padding-left: 40px;
+    height: 100%;
+    font-weight: 100;
+    
+
+}
+
+.main-container > .left-side-wrapper > .text-wrapper {
+    font-size: 2rem;
+}
+.main-container > .left-side-wrapper > .btns-wrapper{
+    display: flex;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.main-container > .left-side-wrapper > .btns-wrapper> .bottom-btn {
+    line-height: 80px;
+    width: fit-content;
+    font-size: 2rem;
+    padding: 18px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.main-container > .left-side-wrapper > .btns-wrapper> .bottom-btn:nth-child(1){
+    background-color: #4bce79;
+    color: black;
+    font-weight: 500;
+}
+
+.main-container > .left-side-wrapper > .btns-wrapper> .bottom-btn:nth-child(2){
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+/* Right part of the page, mostly the img */
+.main-container > .right-side-wrapper{
+    height: 100%;
+}
+
+.main-container > .right-side-wrapper h2{
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+    margin-left: 12px;
+}
+
+#projects{
+    color:#54d4fc;
+}
+
+.main-container > .right-side-wrapper img{
+    height: fit-content;
+    width:500px;
+}
+
+/* footer styles */
+.footer{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: -4px;
+    margin-bottom: 150px;
+}
+
+.footer > .footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #36383f;
+    border: solid 3px #676767;
+    width:25%;
+    font-weight: bold;
+    letter-spacing: -1px;
+
+}
+
+.footer > .footer-section > .message > .purpose{
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
